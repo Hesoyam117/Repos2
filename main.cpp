@@ -128,11 +128,12 @@ int main(int argc, char *argv[])
                     default: fprintf(output, "Упс... Что-то пошло не так :(");//Ошибка при несответствии ни одному из условий
                 }
             }
+        fclose(input);
+        fclose(output);
         printf("Продолжить работу?:\n1-да 0-нет");
         scanf("%d", &ask);
         fprintf(output, "\nГорбанев Кирилл 4группа 1курс ФизФак. Спасибо за использование программы");
-        fclose(input);
-        fclose(output);
+        
     }         
   
 
