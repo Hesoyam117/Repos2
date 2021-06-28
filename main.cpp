@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
             }
         fclose(input);
         fclose(output);
-        printf("Продолжить работу?:\n1-да 0-нет");
+        printf("Продолжить работу?:\n1-да 0-нет\n");
         scanf("%d", &ask);
         fprintf(output, "\nГорбанев Кирилл 4группа 1курс ФизФак. Спасибо за использование программы");
         
